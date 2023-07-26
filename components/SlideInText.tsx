@@ -10,12 +10,9 @@ export default function SlideInText(props: SlideInTextProps) {
       <motion.div
         className="text-2xl text-center text-white"
         initial={{ x: -600 }}
-        animate={{ x: 0 }}
-        transition={{
-          type: "spring",
-          path: "M0,0 L100,100 L200,0",
-          delay: 0.6,
-          duration: 1.5,
+        animate={{
+          x: 0,
+          transition: { type: "spring", delay: 0.2, duration: 1.2 },
         }}
       >
         {props.text}
