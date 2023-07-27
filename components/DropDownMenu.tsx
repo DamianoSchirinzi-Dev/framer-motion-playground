@@ -15,7 +15,7 @@ export default function DropDownMenu() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex flex-col items-center w-full pt-20">
+    <div className="flex flex-col items-center pt-20">
       <h1 className="pb-6 text-3xl text-white">Drop down</h1>
       <motion.nav
         initial={false}

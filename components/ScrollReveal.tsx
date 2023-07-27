@@ -11,8 +11,9 @@ export default function ScrollReveal () {
           duration: 1.5,
         },
       }}
+      viewport={{once:true}}
     >
-        While in view fade in
+      Fade in on first time in view
     </motion.div>
   );
 };
